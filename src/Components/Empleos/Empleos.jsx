@@ -1,6 +1,6 @@
 import React, { useEffect} from 'react';
 import { servicios } from '../../Services/Services';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setEmpleos } from '../../store/slices/empleos';
 
 
@@ -8,11 +8,11 @@ import { setEmpleos } from '../../store/slices/empleos';
 const Empleos = ({listaEmpleos}) => {
     console.log(listaEmpleos)
     //const [losEmpleos,setLosEmpleos]=useState(null)
-    const {user}=useSelector(state=> state.user)
+    
     const dispatch=useDispatch()
     const getEmpleos=async()=>{
         var data,token,metodo,url;
-        token=user
+    
          metodo='GET'
          url='https://appi-kiura.onrender.com/empleos'
        var res=await servicios(data,metodo,url,token)
