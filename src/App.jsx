@@ -15,12 +15,12 @@ function App() {
           <br></br>
       
           <Routes>
-             <Route path='/' element={ <PageHome/>}/>
-             <Route path='/empleos' element={<PageEmpleos/>}/>
-             <Route path='/perfiles' element={<PagePerfiles/>}/>
-             <Route path='/empresas' element={<PageEmpresas/>}/>
+             <Route path='/gestion-profesional/' element={ <PageHome/>}/>
+             <Route path='/gestion-profesional/empleos' element={<PageEmpleos/>}/>
+             <Route path='/gestion-profesional/perfiles' element={<PagePerfiles/>}/>
+             <Route path='/gestion-profesional/empresas' element={<PageEmpresas/>}/>
              <Route path='/registrarse' element={<PageRegistrarse/>}/>
-             <Route path='/admin' element={<PageAdmin/>}/>
+             <Route path='/gestion-profesional/admin' element={<PageAdmin/>}/>
           </Routes>
          
            
