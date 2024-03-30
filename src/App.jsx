@@ -13,8 +13,9 @@ function App() {
     <div className='main'>
           <Header/>
           <br></br>
+      
           <Routes>
-             <Route path='/' element={ <PageHome/>}/>
+             <Route path='/gestion-profesional/' element={ <PageHome/>}/>
              <Route path='/empleos' element={<PageEmpleos/>}/>
              <Route path='/perfiles' element={<PagePerfiles/>}/>
              <Route path='/empresas' element={<PageEmpresas/>}/>
