@@ -13,7 +13,7 @@ const NavBar=()=>{
         <label htmlFor="check" className="check">Menu</label>
         <input type="checkbox" id="check"></input>
       <nav className={classes.nav}>
-         <Link className={classes.link} to="/gestion-profesional/">Home</Link>
+         <Link className={classes.link} to="/">Home</Link>
          <Link className={classes.link} to="/empleos">Empleos</Link>
          <Link className={classes.link} to="/perfiles">Perfiles</Link>
          <Link className={classes.link} to="/empresas">Empresas</Link>
